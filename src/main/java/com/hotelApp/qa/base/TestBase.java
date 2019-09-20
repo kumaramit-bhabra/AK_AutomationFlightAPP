@@ -46,7 +46,7 @@ public class TestBase
        driver.manage().timeouts().pageLoadTimeout(UtilCommon.waitPageTimeOut,TimeUnit.SECONDS);
        driver.manage().timeouts().implicitlyWait(UtilCommon.implicitWaitTimeOut, TimeUnit.SECONDS);
        driver.get(prop.getProperty("url"));
-       System.out.println("Testing Git push in Test Base.java class");
+       // System.out.println("Testing Git push in Test Base.java class");
    }
 
 }
