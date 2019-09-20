@@ -61,6 +61,7 @@ public class LoginPageTest extends TestBase
     public void tearDown()
     {
         driver.quit();
+        System.out.println ("Someone made the changes in master");
     }
 
 
