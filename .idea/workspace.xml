@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="" />
+    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/BookHotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SelectHotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SelectHotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SearchHotelPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SearchHotelPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SelectHotelPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SelectHotelPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/pages/SearchHotelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/pages/SearchHotelPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/pages/SelectHotelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/pages/SelectHotelPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hotelApp/qa/testcases/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hotelApp/qa/testcases/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hotelApp/qa/testcases/SearchHotelPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hotelApp/qa/testcases/SearchHotelPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hotelApp/qa/testcases/SelectHotelPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hotelApp/qa/testcases/SelectHotelPageTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +79,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest">
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BookHotelPageTest.bookHotelTest">
+    <configuration name="BookHotelPageTest.bookHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +89,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.HomePageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.BookHotelPageTest" />
+      <option name="METHOD_NAME" value="bookHotelTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -98,7 +115,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SignUpPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchHotelPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <extension name="coverage">
         <pattern>
@@ -107,8 +124,44 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SignUpPageTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SearchHotelPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchHotelPageTest.searchHotelResetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SearchHotelPageTest" />
+      <option name="METHOD_NAME" value="searchHotelResetTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectHotelPageTest.selectHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SelectHotelPageTest" />
+      <option name="METHOD_NAME" value="selectHotelTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -117,9 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BookHotelPageTest.bookHotelTest" />
+        <item itemvalue="TestNG.SelectHotelPageTest.selectHotelTest" />
+        <item itemvalue="TestNG.SearchHotelPageTest" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.SignUpPageTest" />
-        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.SearchHotelPageTest.searchHotelResetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +197,9 @@
       <workItem from="1568808848064" duration="39000" />
       <workItem from="1568809798995" duration="211000" />
       <workItem from="1568912076652" duration="25000" />
-      <workItem from="1568972673954" duration="3984000" />
+      <workItem from="1568972673954" duration="5421000" />
+      <workItem from="1569447387454" duration="15292000" />
+      <workItem from="1569530726840" duration="3786000" />
     </task>
     <servers />
   </component>
@@ -154,7 +211,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

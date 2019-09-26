@@ -20,7 +20,7 @@ public class TestBase
        try
        {
        prop = new Properties();
-       FileInputStream inputStream = new FileInputStream("C:\\Users\\Admin\\IdeaProjects\\AutomationTest\\src\\main\\java\\com\\hotelApp\\qa\\config\\config.properties");
+       FileInputStream inputStream = new FileInputStream("C:\\Users\\Admin\\Documents\\GitHub Automation\\AK_AutomationFlightAPP\\src\\main\\java\\com\\hotelApp\\qa\\config\\config.properties");
        prop.load(inputStream);
        }
        catch (FileNotFoundException e) {

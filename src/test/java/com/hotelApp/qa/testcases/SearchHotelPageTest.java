@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class SearchHotelPageTest extends TestBase
 {
-    SearchHotelPage homePage;
+    SearchHotelPage searchHotelPage;
     LoginPage loginPage;
     BookedItinerary bookedItinerary;
     ChangePassword changePassword;
@@ -27,15 +27,31 @@ public class SearchHotelPageTest extends TestBase
     {
         initialization();
         loginPage = new LoginPage();
-        homePage = loginPage.validateLogin(prop.getProperty("username"),prop.getProperty("password"));
+        searchHotelPage = loginPage.validateLogin(prop.getProperty("username"),prop.getProperty("password"));
+    }
+
+    @Test
+    public void isUserLoggedInTest()
+    {
+        Assert.assertTrue(searchHotelPage.validateLoggedUserName(), "User is not logged in");
+    }
+
+    @Test
+    public void searchHotelTitleTest()
+    {
+        Assert.assertEquals(searchHotelPage.validateSearchHotelTitle(),"AdactIn.com - Search Hotel", "Title of the page is not correct");
     }
 
     @Test
     public void searchHotelTest()
     {
-        selectHotelPage = homePage.validateSearchHotelFunctionality();
-        selectHotelPage.validateSearchResultsDisplayed();
-        Assert.assertEquals(selectHotelPage.validateSearchResultsDisplayed(),"Select Hotel");
+        selectHotelPage = searchHotelPage.validateSearchHotelFunctionality();
+    }
+
+    @Test
+    public void searchHotelResetTest()
+    {
+        Assert.assertTrue(searchHotelPage.validateResetFunctionality(),"Reset functionality is not working");
     }
 
    @AfterMethod
@@ -43,5 +59,4 @@ public class SearchHotelPageTest extends TestBase
     {
         driver.quit();
     }
-
 }

@@ -1,6 +1,7 @@
 package com.hotelApp.qa.pages;
 
 import com.hotelApp.qa.base.TestBase;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -54,54 +55,83 @@ public class SearchHotelPage extends TestBase
     WebElement resetBttn;
 
 
-    public SearchHotelPage()
-    {
-        PageFactory.initElements(driver,this);
+    public SearchHotelPage() {
+        PageFactory.initElements(driver, this);
     }
 
-    public String validateHomePageTitle()
-    {
+    public String validateHomePageTitle() {
         return driver.getTitle();
     }
 
-    public String validateLoggedUserName()
+    public boolean validateLoggedUserName()
     {
-        return userNameShow.getAttribute("value");
+       boolean loggedUserName = false;
+        if(userNameShow.getAttribute("value").contains( prop.getProperty("username")))
+        {
+            loggedUserName = true;
+        }
+        return  loggedUserName;
     }
 
-    public SelectHotelPage validateSearchHotelFunctionality()
-    {
-        Select selectLocDropDwn = new Select(location);
-        selectLocDropDwn.selectByIndex(1);
+    public SelectHotelPage validateSearchHotelFunctionality() {
+        selectingDropDownValues();
+        submitBttn.submit();
+        return new SelectHotelPage();
+    }
 
-        Select hotelDropDwn = new Select(hotels);
-        hotelDropDwn.selectByValue("Hotel Sunshine");
+    public String validateSearchHotelTitle() {
+        return driver.getTitle();
+    }
+
+    public boolean validateResetFunctionality()
+    {
+        boolean resultForReset = false;
+        Select locForResetFun = new Select(location);
+        String selectLocDropDwnDefVal = locForResetFun.getFirstSelectedOption().getText();
+        System.out.println(selectLocDropDwnDefVal);
+
+        Select hotelForResetFun = new Select(hotels);
+        String selectHotDropDwnDefVal = hotelForResetFun.getFirstSelectedOption().getText();
 
         Select roomTypeDropDown = new Select(roomType);
         roomTypeDropDown.selectByVisibleText("Deluxe");
 
-        Select noOfRoomDropDown = new Select(roomNo);
-        noOfRoomDropDown.selectByIndex(2);
-
-        datePickIn.clear();
-        datePickOut.clear();
-        datePickIn.sendKeys("15/09/2019");
-        datePickOut.sendKeys("20/09/2019");
-
-        Select adultRoomDropDown = new Select(adultRoom);
-        adultRoomDropDown.selectByIndex(1);
-
-        Select childrenPerRoomDropDown = new Select(childRoom);
-        childrenPerRoomDropDown.selectByValue("2");
-
-        submitBttn.submit();
-        return new SelectHotelPage();
-
+        selectingDropDownValues();
+        resetBttn.click();
+        if (selectLocDropDwnDefVal.equals("- Select Location -"))
+        {
+            if (selectHotDropDwnDefVal.equals("- Select Hotel -"))
+            {
+                resultForReset = true;
+            }
+        }
+        return resultForReset;
     }
 
-    public void validateResetFunctionality()
-    {
 
+    public void selectingDropDownValues()
+    {
+            Select selectLocDropDwn = new Select(location);
+            selectLocDropDwn.selectByIndex(1);
+
+            Select hotelDropDwn = new Select(hotels);
+            hotelDropDwn.selectByValue("Hotel Sunshine");
+
+            Select roomTypeDropDown = new Select(roomType);
+            roomTypeDropDown.selectByVisibleText("Deluxe");
+
+            Select noOfRoomDropDown = new Select(roomNo);
+            noOfRoomDropDown.selectByIndex(2);
+            datePickIn.clear();
+            datePickOut.clear();
+            datePickIn.sendKeys("15/09/2019");
+            datePickOut.sendKeys("20/09/2019");
+
+            Select adultRoomDropDown = new Select(adultRoom);
+            adultRoomDropDown.selectByIndex(1);
+
+            Select childrenPerRoomDropDown = new Select(childRoom);
+            childrenPerRoomDropDown.selectByValue("2");
     }
 
     public BookedItinerary validateBookedItinerary()

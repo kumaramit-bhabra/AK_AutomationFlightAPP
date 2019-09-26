@@ -2,21 +2,21 @@ package com.hotelApp.qa.testcases;
 
 import com.hotelApp.qa.base.TestBase;
 import com.hotelApp.qa.pages.BookHotelPage;
-import com.hotelApp.qa.pages.SearchHotelPage;
 import com.hotelApp.qa.pages.LoginPage;
+import com.hotelApp.qa.pages.SearchHotelPage;
 import com.hotelApp.qa.pages.SelectHotelPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SelectHotelPageTest extends TestBase
+public class BookHotelPageTest extends TestBase
 {
     LoginPage loginPage;
-    SearchHotelPage homePage;
+    SearchHotelPage searchHotelPage;
     SelectHotelPage selectHotelPage;
     BookHotelPage bookHotelPage;
 
-    public SelectHotelPageTest()
+    public BookHotelPageTest()
     {
         super();
     }
@@ -26,15 +26,15 @@ public class SelectHotelPageTest extends TestBase
     {
         initialization();
         loginPage = new LoginPage();
-        homePage = loginPage.validateLogin(prop.getProperty("username"),prop.getProperty("password"));
-        selectHotelPage = homePage.validateSearchHotelFunctionality();
+        searchHotelPage = loginPage.validateLogin(prop.getProperty("username"),prop.getProperty("password"));
+        selectHotelPage = searchHotelPage.validateSearchHotelFunctionality();
+        bookHotelPage = selectHotelPage.selectHotel();
     }
 
-    //Define any test cases that you want to validate for this particular page
     @Test
-    public void selectHotelTest()
+    public void bookHotelTest()
     {
-        bookHotelPage = selectHotelPage.selectHotel();
+        bookHotelPage.bookHotel();
     }
 
     @AfterMethod
