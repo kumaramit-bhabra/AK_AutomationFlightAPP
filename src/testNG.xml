@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My First test Suite - Flight App">
+    <listeners>
+        <listener class-name="com.hotelApp.qa.ExtentReport.ExtentReporterNG"/>
+    </listeners>
+
+    <test name="Flight App Regression Suite">
+        <classes>
+            <class name="com.hotelApp.qa.testcases.LoginPageTest"/>
+            <class name="com.hotelApp.qa.testcases.SearchHotelPageTest"/>
+            <class name="com.hotelApp.qa.testcases.SearchHotelPageTest"/>
+            <class name="com.hotelApp.qa.testcases.BookHotelPageTest"/>
+
+        </classes>
+    </test>
+</suite>
