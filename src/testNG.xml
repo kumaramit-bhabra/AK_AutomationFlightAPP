@@ -6,11 +6,10 @@
 
     <test name="Flight App Regression Suite">
         <classes>
-            <class name="com.hotelApp.qa.testcases.LoginPageTest"/>
             <class name="com.hotelApp.qa.testcases.SearchHotelPageTest"/>
-            <class name="com.hotelApp.qa.testcases.SearchHotelPageTest"/>
+            <class name="com.hotelApp.qa.testcases.SelectHotelPageTest"/>
             <class name="com.hotelApp.qa.testcases.BookHotelPageTest"/>
-
+            <class name="com.hotelApp.qa.testcases.LoginPageTest"/>
         </classes>
     </test>
 </suite>

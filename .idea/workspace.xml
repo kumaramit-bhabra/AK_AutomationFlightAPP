@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/ExtentReport/ExtentReporterNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testNG.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -153,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml" />
+        <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.BookHotelPageTest.bookHotelTest" />
         <item itemvalue="TestNG.SelectHotelPageTest.selectHotelTest" />
         <item itemvalue="TestNG.SearchHotelPageTest" />
-        <item itemvalue="TestNG.LoginPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +181,10 @@
       <workItem from="1569447387454" duration="15292000" />
       <workItem from="1569530726840" duration="4356000" />
       <workItem from="1569535172715" duration="468000" />
-      <workItem from="1569535663102" duration="239000" />
+      <workItem from="1569535663102" duration="1520000" />
+      <workItem from="1569538449269" duration="22000" />
+      <workItem from="1569538774632" duration="1726000" />
+      <workItem from="1569574327562" duration="601000" />
     </task>
     <servers />
   </component>
