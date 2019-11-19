@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml">
+  <component name="RunManager" selected="TestNG.SelectHotelPageTest.selectHotelTest">
     <configuration name="BookHotelPageTest.bookHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <extension name="coverage">
@@ -185,6 +184,24 @@
       <workItem from="1569538449269" duration="22000" />
       <workItem from="1569538774632" duration="1726000" />
       <workItem from="1569574327562" duration="601000" />
+      <workItem from="1569781558716" duration="2511000" />
+      <workItem from="1569793423765" duration="78000" />
+      <workItem from="1569796183219" duration="119000" />
+      <workItem from="1569796345949" duration="43000" />
+      <workItem from="1569796777528" duration="24000" />
+      <workItem from="1569797186184" duration="54000" />
+      <workItem from="1569797344289" duration="18000" />
+      <workItem from="1569797854696" duration="22000" />
+      <workItem from="1569798032432" duration="22000" />
+      <workItem from="1569798148659" duration="30000" />
+      <workItem from="1569944211892" duration="59000" />
+      <workItem from="1569944558012" duration="53000" />
+      <workItem from="1569944839205" duration="127000" />
+      <workItem from="1569952047529" duration="107000" />
+      <workItem from="1569952717707" duration="24000" />
+      <workItem from="1570471859690" duration="188000" />
+      <workItem from="1570640261288" duration="70000" />
+      <workItem from="1574165633379" duration="36000" />
     </task>
     <servers />
   </component>
