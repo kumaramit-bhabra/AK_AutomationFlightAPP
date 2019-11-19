@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class SearchHotelPage extends TestBase
 {
+    //To test the SCM polling
     @FindBy(id = "username_show")
     WebElement userNameShow;
 
