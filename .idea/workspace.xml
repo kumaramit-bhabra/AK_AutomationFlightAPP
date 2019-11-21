@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -201,7 +201,10 @@
       <workItem from="1570471859690" duration="188000" />
       <workItem from="1570640261288" duration="70000" />
       <workItem from="1574165633379" duration="36000" />
-      <workItem from="1574185364142" duration="705000" />
+      <workItem from="1574185364142" duration="1274000" />
+      <workItem from="1574188166118" duration="1784000" />
+      <workItem from="1574190872890" duration="1058000" />
+      <workItem from="1574275800809" duration="38000" />
     </task>
     <servers />
   </component>
