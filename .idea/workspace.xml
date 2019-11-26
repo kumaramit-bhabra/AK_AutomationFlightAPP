@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="" />
+    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="Made changes to Sign Up Page">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SignUpPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testNG.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,5 +224,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made changes to Sign Up Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made changes to Sign Up Page" />
   </component>
 </project>

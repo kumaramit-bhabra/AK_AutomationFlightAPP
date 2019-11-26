@@ -3,7 +3,6 @@
     <listeners>
         <listener class-name="com.hotelApp.qa.ExtentReport.ExtentReporterNG"/>
     </listeners>
-
     <test name="Flight App Regression Suite">
         <classes>
             <class name="com.hotelApp.qa.testcases.SearchHotelPageTest"/>

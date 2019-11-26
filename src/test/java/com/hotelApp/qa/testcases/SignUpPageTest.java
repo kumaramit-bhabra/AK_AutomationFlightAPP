@@ -32,11 +32,10 @@ public class SignUpPageTest extends TestBase
         signUpPage.validateNewUserRegister();
     }
 
-   /* @AfterMethod
+    @AfterMethod
     public void tearDown()
     {
         driver.quit();
     }
 
-    */
 }
