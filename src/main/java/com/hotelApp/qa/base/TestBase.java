@@ -7,6 +7,7 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -24,9 +25,8 @@ public class TestBase
    {
        try
        {
-           //C:\Users\Admin\Documents\GitHub Automation
        prop = new Properties();
-       FileInputStream inputStream = new FileInputStream("\\AK_AutomationFlightAPP\\src\\main\\java\\com\\hotelApp\\qa\\config\\config.properties");
+       FileInputStream inputStream = new FileInputStream("src\\main\\java\\com\\hotelApp\\qa\\config\\config.properties");
        prop.load(inputStream);
        }
        catch (FileNotFoundException e) {
