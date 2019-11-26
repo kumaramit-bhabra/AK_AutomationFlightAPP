@@ -26,7 +26,7 @@ public class TestBase
        try
        {
        prop = new Properties();
-       FileInputStream inputStream = new FileInputStream("src\\main\\java\\com\\hotelApp\\qa\\config\\config.properties");
+       FileInputStream inputStream = new FileInputStream("src//main//java//com//hotelApp//qa//config//config.properties");
        prop.load(inputStream);
        }
        catch (FileNotFoundException e) {
@@ -39,6 +39,7 @@ public class TestBase
    }
 
    public static void initialization() throws MalformedURLException {
+
        String browserName = prop.getProperty("browserName");
 
        if(browserName.equals("Chrome"))
