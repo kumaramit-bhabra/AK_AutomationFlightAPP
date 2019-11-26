@@ -9,6 +9,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import java.net.MalformedURLException;
+
 public class LoginPageTest extends TestBase
 {
     LoginPage loginPage;
@@ -20,8 +22,7 @@ public class LoginPageTest extends TestBase
     }
 
     @BeforeMethod
-    public void setUp()
-    {
+    public void setUp() throws MalformedURLException {
         initialization();
         loginPage = new LoginPage();
     }

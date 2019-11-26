@@ -63,7 +63,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SelectHotelPageTest.selectHotelTest">
+  <component name="RunManager" selected="TestNG.BookHotelPageTest">
+    <configuration name="BookHotelPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AK_AutomationFlightAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.BookHotelPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookHotelPageTest.bookHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <extension name="coverage">
@@ -109,23 +126,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchHotelPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SearchHotelPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectHotelPageTest.selectHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <extension name="coverage">
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BookHotelPageTest" />
         <item itemvalue="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.BookHotelPageTest.bookHotelTest" />
         <item itemvalue="TestNG.SelectHotelPageTest.selectHotelTest" />
-        <item itemvalue="TestNG.SearchHotelPageTest" />
       </list>
     </recent_temporary>
   </component>
