@@ -41,14 +41,14 @@ public class TestBase
    public static void initialization() throws MalformedURLException {
 
        String browserName = prop.getProperty("browserName");
-//Chnages made
+//Changes made
        if(browserName.equals("Chrome"))
        {
            System.setProperty("webdriver.chrome.driver","C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
-           //driver = new ChromeDriver();
-           DesiredCapabilities cap = new DesiredCapabilities();
+           driver = new ChromeDriver();
+           /*DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
-           driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);
+           driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);*/
        }
        driver.manage().window().maximize();
        driver.manage().deleteAllCookies();

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="Made changes to Sign Up Page">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SignUpPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SignUpPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/testNG.xml" afterDir="false" />
+    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +207,14 @@
       <workItem from="1574190872890" duration="1058000" />
       <workItem from="1574275800809" duration="38000" />
     </task>
+    <task id="LOCAL-00001" summary="Made changes to Sign Up Page">
+      <created>1574784559798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574784559799</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
