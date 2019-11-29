@@ -45,7 +45,8 @@ public class TestBase
        if(browserName.equals("Chrome"))
        {
            //System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver.exe");
-           System.setProperty("webdriver.chrome.driver","..//usr//local//bin//chromedriver");
+           System.setProperty("user.dir", "usr//local//");
+           System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
            driver = new ChromeDriver();
            /*DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
