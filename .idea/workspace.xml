@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="" />
+    <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

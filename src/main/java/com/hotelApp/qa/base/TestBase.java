@@ -46,6 +46,7 @@ public class TestBase
        {
            //System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver.exe");
            System.setProperty("user.dir", "usr//local//");
+           System.out.println("The current working directory is "+System.getProperty("user.dir"));
            System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
            driver = new ChromeDriver();
            /*DesiredCapabilities cap = new DesiredCapabilities();
