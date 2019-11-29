@@ -50,6 +50,7 @@ public class TestBase
            ChromeOptions options = new ChromeOptions();
            options.addArguments("--headless");
            options.addArguments("--no-sandbox");
+           options.addArguments("--disable-gpu");
            driver = new ChromeDriver(options);
            /*DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
