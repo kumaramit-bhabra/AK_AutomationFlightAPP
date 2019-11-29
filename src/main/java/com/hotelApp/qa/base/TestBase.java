@@ -49,6 +49,7 @@ public class TestBase
            //System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
            ChromeOptions options = new ChromeOptions();
            options.addArguments("--headless");
+           options.addArguments("--no-sandbox");
            driver = new ChromeDriver(options);
            /*DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
