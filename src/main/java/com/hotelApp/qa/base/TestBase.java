@@ -3,6 +3,7 @@ package com.hotelApp.qa.base;
 import com.hotelApp.qa.util.UtilCommon;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -46,7 +47,9 @@ public class TestBase
        {
            System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver");
            //System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
-           driver = new ChromeDriver();
+           ChromeOptions options = new ChromeOptions();
+           options.addArguments("--headless");
+           driver = new ChromeDriver(options);
            /*DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
            driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);*/
