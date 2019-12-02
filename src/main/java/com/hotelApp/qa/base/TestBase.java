@@ -1,6 +1,7 @@
 package com.hotelApp.qa.base;
 
 import com.hotelApp.qa.util.UtilCommon;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -48,8 +49,14 @@ public class TestBase
            System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver");
            //System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
            ChromeOptions options = new ChromeOptions();
-           options.addArguments("--headless");
-           options.addArguments("--no-sandbox");
+           options.setPageLoadStrategy(PageLoadStrategy.NONE); // https://www.skptricks.com/2018/08/timed-out-receiving-message-from-renderer-selenium.html
+           options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
+           options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
+           options.addArguments("--headless"); // only if you are ACTUALLY running headless
+           options.addArguments("--no-sandbox"); //https://stackoverflow.com/a/50725918/1689770
+           options.addArguments("--disable-infobars"); //https://stackoverflow.com/a/43840128/1689770
+           options.addArguments("--disable-dev-shm-usage"); //https://stackoverflow.com/a/50725918/1689770
+           options.addArguments("--disable-browser-side-navigation"); //https://stackoverflow.com/a/49123152/1689770
            options.addArguments("--disable-gpu");
            driver = new ChromeDriver(options);
            /*DesiredCapabilities cap = new DesiredCapabilities();
