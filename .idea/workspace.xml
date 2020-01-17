@@ -4,6 +4,9 @@
     <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml (1)">
+  <component name="RunManager" selected="TestNG.SearchHotelPageTest.searchHotelTitleTest">
     <configuration name="BookHotelPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AK_AutomationFlightAPP" />
       <extension name="coverage">
@@ -87,24 +90,6 @@
       <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
       <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.BookHotelPageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookHotelPageTest.bookHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.BookHotelPageTest" />
-      <option name="METHOD_NAME" value="bookHotelTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,13 +133,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchHotelPageTest.searchHotelTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AK_AutomationFlightAPP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
+      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SearchHotelPageTest" />
+      <option name="METHOD_NAME" value="searchHotelTitleTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchHotelPageTest.searchHotelTitleTest" />
         <item itemvalue="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml (1)" />
         <item itemvalue="TestNG.BookHotelPageTest" />
         <item itemvalue="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml" />
         <item itemvalue="TestNG.LoginPageTest" />
-        <item itemvalue="TestNG.BookHotelPageTest.bookHotelTest" />
       </list>
     </recent_temporary>
   </component>

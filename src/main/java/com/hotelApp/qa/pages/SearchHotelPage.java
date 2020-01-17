@@ -81,6 +81,7 @@ public class SearchHotelPage extends TestBase
     }
 
     public String validateSearchHotelTitle() {
+        System.out.println("Title of the page is"+ driver.getTitle());
         return driver.getTitle();
     }
 

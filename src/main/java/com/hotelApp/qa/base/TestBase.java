@@ -47,8 +47,13 @@ public class TestBase
        if(browserName.equals("Chrome"))
        {
            //The below is for running it on windows
-           //System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver.exe");
-
+           System.out.println("Operating system name is "+ System.getProperty("os.name"));
+           String os = System.getProperty("os.name");
+           if(os.contains("Windows"))
+           {
+               System.setProperty("webdriver.chrome.driver", "src//main//java//com//hotelApp//qa//testData//chromedriver.exe");
+           }
+           else
            //The below is for running it on unix
            System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver");
 
