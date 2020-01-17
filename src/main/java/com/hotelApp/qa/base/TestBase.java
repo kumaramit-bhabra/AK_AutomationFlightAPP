@@ -46,7 +46,12 @@ public class TestBase
 //Changes made
        if(browserName.equals("Chrome"))
        {
-           System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver.exe");
+           //The below is for running it on windows
+           //System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver.exe");
+
+           //The below is for running it on unix
+           System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver");
+
            //System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
            ChromeOptions options = new ChromeOptions();
            options.setPageLoadStrategy(PageLoadStrategy.NONE); // https://www.skptricks.com/2018/08/timed-out-receiving-message-from-renderer-selenium.html
