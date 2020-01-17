@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/pages/SearchHotelPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SearchHotelPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hotelApp/qa/testcases/SearchHotelPageTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

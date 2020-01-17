@@ -40,6 +40,7 @@ public class SearchHotelPageTest extends TestBase
     @Test
     public void searchHotelTitleTest()
     {
+        //changes made
         //Assert.assertEquals(searchHotelPage.validateSearchHotelTitle(),"AdactIn.com - Search Hotel", "Title of the page is not correct");
     }
 
