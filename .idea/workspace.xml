@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e6c1a01-2a53-48dd-b1d3-74e4115ab548" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hotelApp/qa/base/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/hotelApp/qa/testData" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +59,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Documents\GitHub Automation\AK_AutomationFlightAPP\src\main\java\com\hotelApp\qa\testData" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BookHotelPageTest">
+  <component name="RunManager" selected="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml (1)">
     <configuration name="BookHotelPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AK_AutomationFlightAPP" />
       <extension name="coverage">
@@ -105,6 +113,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AK_AutomationFlightAPP" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationTest" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/testNG.xml" />
@@ -132,31 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectHotelPageTest.selectHotelTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AutomationTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hotelApp.qa.testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hotelApp.qa.testcases" />
-      <option name="MAIN_CLASS_NAME" value="com.hotelApp.qa.testcases.SelectHotelPageTest" />
-      <option name="METHOD_NAME" value="selectHotelTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml (1)" />
         <item itemvalue="TestNG.BookHotelPageTest" />
         <item itemvalue="TestNG.C:/Users/Admin/Documents/GitHub Automation/AK_AutomationFlightAPP/src/testNG.xml" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.BookHotelPageTest.bookHotelTest" />
-        <item itemvalue="TestNG.SelectHotelPageTest.selectHotelTest" />
       </list>
     </recent_temporary>
   </component>
