@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="My First test Suite - Flight App">
+<suite name="My First test Suite - Flight App" parallel = "tests">
     <listeners>
         <listener class-name="com.hotelApp.qa.ExtentReport.ExtentReporterNG"/>
     </listeners>
