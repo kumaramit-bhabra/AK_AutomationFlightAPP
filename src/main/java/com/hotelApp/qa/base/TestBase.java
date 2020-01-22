@@ -58,7 +58,7 @@ public class TestBase
            System.setProperty("webdriver.chrome.driver","src//main//java//com//hotelApp//qa//testData//chromedriver");
 
            //System.setProperty("webdriver.chrome.driver","usr//local//bin//chromedriver");
-           ChromeOptions options = new ChromeOptions();
+           /*ChromeOptions options = new ChromeOptions();
            options.setPageLoadStrategy(PageLoadStrategy.NONE); // https://www.skptricks.com/2018/08/timed-out-receiving-message-from-renderer-selenium.html
            options.addArguments("start-maximized"); // https://stackoverflow.com/a/26283818/1689770
            options.addArguments("enable-automation"); // https://stackoverflow.com/a/43840128/1689770
@@ -68,11 +68,12 @@ public class TestBase
            options.addArguments("--disable-dev-shm-usage"); //https://stackoverflow.com/a/50725918/1689770
            options.addArguments("--disable-browser-side-navigation"); //https://stackoverflow.com/a/49123152/1689770
            options.addArguments("--disable-gpu");
-           options.addArguments("--remote-debugging-port=9222");
-           driver = new ChromeDriver(options);
-           /*DesiredCapabilities cap = new DesiredCapabilities();
+           //options.addArguments("--remote-debugging-port=9222");
+           driver = new ChromeDriver(options);*/
+
+           DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
-           driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);*/
+           driver = new RemoteWebDriver(new URL("http://172.17.0.2:4444/wd/hub"),cap);
        }
        driver.manage().window().maximize();
        driver.manage().deleteAllCookies();
