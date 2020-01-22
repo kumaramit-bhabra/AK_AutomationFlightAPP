@@ -68,6 +68,7 @@ public class TestBase
            options.addArguments("--disable-dev-shm-usage"); //https://stackoverflow.com/a/50725918/1689770
            options.addArguments("--disable-browser-side-navigation"); //https://stackoverflow.com/a/49123152/1689770
            options.addArguments("--disable-gpu");
+           options.addArguments("--remote-debugging-port=9222");
            driver = new ChromeDriver(options);
            /*DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
