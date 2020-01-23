@@ -70,10 +70,11 @@ public class TestBase
            options.addArguments("--disable-gpu");
            //options.addArguments("--remote-debugging-port=9222");
            driver = new ChromeDriver(options);*/
-//Running it via Grid
+
+           //Running it via Grid and on docker container installed locally
            DesiredCapabilities cap = new DesiredCapabilities();
            cap.setBrowserName(BrowserType.CHROME);
-           driver = new RemoteWebDriver(new URL("http://192.168.99.100/:4444/wd/hub"),cap);
+           driver = new RemoteWebDriver(new URL("http://192.168.99.100:4444/wd/hub"),cap);
        }
        driver.manage().window().maximize();
        driver.manage().deleteAllCookies();
